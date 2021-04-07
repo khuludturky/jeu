@@ -6,7 +6,6 @@ function hasard(min,max)
 	return min+Math.floor(Math.random()*(max-min+1));
 }
 var nbralea=hasard(0,10);
-console.log(nbralea);
 do{
 /*nbr donnée par l'utilisateur */
 var nombre=prompt("devinez un nombre entre 0 et 10 ");
